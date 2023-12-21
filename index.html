@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Crypto Transaction Page</title>
+</head>
+<!-- Body starts here -->
+<body>
+     <br />
+     <br />
+     <div> 
+          <center> <w3m-core-button></w3m-core-button> </center>
+     </div>
+     
+<div class="container">
+     
+    <!-- Top header grid columns -->
+<div class="grid-container-6-boxes">
+     <div class="grid-box1"> <span class="generation-label"id='Generation'>0</span></div>  <!-- box 1 with the color light yellow -->
+     <div class="grid-item2"> <!-- box 2 with start mining and max price -->
+          <input type="text" class="item1-price" size="10" id="item1-price" placeholder="0">
+          <input class="item1-button" type="submit" id="sf_stmining" size="" value="StartMining">
+          <input class="max-price" type="text" id="MaxMine" inputmode"numeric" size="" value="0.00" readonly>
+          <label for="text" class="max-label">MAX</label>
+          <input class="min-price" type="text" id="MinMine" inputmode"numeric" size="" value="0.00" readonly>
+          <label for="text" class="min-label">MIN</label>
+          <!--<input class="max-button" type="button" onclick="" value="MAX">-->
+    </div>
+    <div class="grid-item3"> <!-- box 3 with price and BNB label -->
+    <form action="">
+        <label for="text" class="supply-label">Total Supply</label>
+        <input class="supply-volume" type="text" id="totalSupply"inputmode"numeric" size="" value="0.000000" readonly>
+        <label for="text" class="circulation-label">Circulation</label>
+        <input class="circulation-volume" type="text" id="circulation"inputmode"numeric" size="" value="0.000000" readonly>
+    </form>
+    </div>
+    <div class="grid-item4">
+         <input type="text" class="item4-price" size="" placeholder="0">
+         <p class="plus-symbol">&#x002B;</p>
+         <input class="item4-button" type="submit" id="sf_caliberate" size="" value="Calibrate">
+    </div>
+    <div class="grid-item5">
+            <h1 class="disconnect" id="disconnectLabel">CONNECT</h1>
+        <label class="switch">
+             <input type="checkbox" unchecked id="disconnectCheckbox">
+             <span class="slider round"></span>
+        </label>
+    </div>
+    <div class="grid-item6">
+           <h1 class="mining-network">Mining Network</h1>
+           <img class="network-icon" src="images\network.png" alt="mining network">
+           <input class="gat-members" type="text" id="myNetwork"inputmode"numeric" value="0" readonly>
+
+           <img class="chain-network" src="images\chain.png" alt="chain network">
+           <input class="gat-network" type="text" id ="GroupNetwork"inputmode"numeric" value="0" readonly>
+    </div>
+</div class="">
+<div class="middle-container">
+       <div class="mid-item1">
+            <h2 class="mining-progress">PROGRESS OF MINING OPERATION</h2>
+       <div class="mid-elements">
+                <img src="images\logo.png" class="gat-coin" alt="gat coin">
+              <div class="gat-price" id="balance"><strong>0.000000000000000000</strong></div>
+              <div class="gat"><strong>GAT</strong></div>
+       </div>
+          <form action="" class="middle-form">
+              <h1 class="approx-heading"><strong>Available To Mine</strong></h1>
+              <input class="approx-price" type="text" id="ApproximatePrice" placeholder="0.00" readonly>
+                <input class="mining-round" type="text" id="MiningRounds" size="" value="0 Mining Rounds" readonly>
+                <button type="button" class="withdraw-Button" id = "withdraw">Withdraw Request</button>
+              <input href=https://www.dextools.io/app/en/bnb/pair-explorer/0x60abf2e74d4e7d8c18c1fa18531db5818e1138d7 class="current-trading-price-button" type="submit" onclick= "" size="" value="Current Trading Price">
+              
+              <img class="miner-gif" height = "80px" width="40px" id="minerAnimate" src="images\axeminer.gif" alt="">
+              <div class="gat-usd" >GAT/USD</strong></div>
+              <div class="gat-usdprice" id="USDpriceGAT">0.000</strong></div>
+          </form>
+       <!-- End of the mid div element -->
+      </div>
+      <div class="third-container">
+            <div class="third-item1">
+                 <h1 class="third-headings"><strong>Wallet Balance</strong></h1>
+                 <span class="third-headings-value" id="user_balance">0.000000 GAT</span>
+                 <span class="usd-price" id="user_balanceUSD">USD 0.00</span>
+                 
+            </div>
+            <div class="third-item2">
+                 <h1 class="third-headings"><strong>Mining Capital</strong></h1>
+                 <span class="third-headings-value" id="MiningCapital">0.0000000000  GAT</span>
+                 <span class="usd-price" id="MiningcapitalUSD">USD 0.00</span>
+            </div>
+            <div class="third-item3">
+                 <h1 class="third-headings"><strong>Expected Mining Return</strong></h1>
+                 <span class="third-headings-value" id="ExpectedMineReturn">0.0000000000  GAT</span>
+                 <span class="usd-price" id="ReturnsUSD">USD 0.00</span>
+            </div>
+            <div class="third-item4">
+                 <h1 class="third-headings">Referral Bonus</h1>
+                 <span class="third-headings-value"id="refBonus">0.000000000  GAT</span>
+                 <span class="usd-price" id="RefUSD">USD 0.00</span>
+            </div>
+      </div>
+      <div class="footer-container">
+            <div class="footer-item1">
+                 <h1 class="fouth-heading"><strong>Join Mining Operations: Input Miner Address</strong></h1>
+                 <h1 class="join-heading"><strong>Join</strong></h1>
+                 <h1 class="reject-heading"><strong>AddCal</strong></h1>
+                 <button class="right-arrow-button" id="join"><span class="arrow-icon">&#8680;</span></button>
+                 <button class="left-arrow-button" id="add_cal" ><span class="arrow-icon">&#8678;</span></button>
+                 <input class="miner-address" type="text" id="walletAddress"  size="" placeholder="">
+                 <form action="" class="email-form">
+                 <label for="email">Email</label>
+                 <input type="email" class="" id="email" name=".email" required>
+                 </form>
+            </div>
+            <div class="footer-item2">
+              <h1 class="total-gat"><strong>Total GAT Mining</strong></h1>
+              <input class="total-gat-mining" type="text" id="Gatminingtotal" inputmode"numeric" size="" value="0.0000000000000000" readonly>
+              <h1 class="total-treasury"><strong>Treasury Balance</strong></h1>
+              <input class="treasury-balance" type="text" id="balanceofTreasury" inputmode"numeric" size="" value="0.0000000000000000" readonly>
+            </div>
+            <div class="footer-item3">
+              <h1 class="sell-buy-email"><strong>Email</strong></h1>
+              <h1 class="sell-buy-heading"><strong><span class="buy-pair">Buy</span>/<span class="sell-pair">Sell</span></strong></h1>
+              <button class="email-button">&#128231;</button>
+              <span><button class="buy-sell-button">GAT</button></span>
+            </div>
+      </div>
+</div>
+</div>
+<script src="./main.js"type="module"></script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+/*............... Box 1 CSS begins here............*/
+.grid-box1 {
+  /* the first box with the light yellow color background*/
+          background-color: red;
+	.max-price {
+          position: relative; left: 50px; top: -35px;
+          width: 50px;
+          padding: 2px;
+          text-align: center;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+          font-size: 12px;
+}
+.generation-label {
+         position: relative; left: -5px; top: 50px;
+         font-size: 24px;
+         font-weight: bolder;
+         text-align: center;
+}
+}
+/*.................Box 2 CSS begins here...........*/
+.grid-item2 {
+          padding: 3px 0 0 5px;
+          text-align: left;
+}
+.item1-price {
+  position: relative; left: -45px; top: 2px;
+          width: 140px;
+          padding: 2px;
+          text-align: right;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+          font-size: 12px;
+}
+.item1-button {
+            position: relative; left: 5px; top: -5px;
+            border: /*2px 2px solid black;*/
+            border-radius: 5px;
+}
+.max-price {
+          position: relative; left: 30px; top: -35px;
+          width: 75px;
+          padding: 2px;
+          text-align: center;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+          font-size: 11px;
+}
+.max-label {
+          position: relative; left: 135px; top: -45px;
+          padding: 2px;
+          text-align: center;
+          border-style: none;
+          border-radius: 5px;
+          font-size: 12px;
+}
+.min-price {
+          position: relative; left: 75px; top: -25px;
+          width: 75px;
+          padding: 2px;
+          text-align: center;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+          font-size: 11px;
+}
+.min-label {
+          position: relative; left: 15px; top: -5px;
+          padding: 2px;
+          text-align: center;
+          border-style: none;
+          border-radius: 5px;
+          font-size: 12px;
+}
+/*.................Box 3 CSS begins here...........*/
+.supply-volume {
+          position: relative; left: 40px; top: -24px;
+          width: 135px;
+          text-align: center;
+          font-size: 12px;
+          padding: 2px;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+}
+.circulation-volume {
+         position: relative; left: 40px; top: -50px;
+         width: 135px;
+         text-align: center;
+         font-size: 12px;
+         padding: 2px;
+         border-radius: 0px;
+         border-style: none;
+         outline-style: none;
+}
+.supply-label {
+         position: relative; left: -75px; top: 10px;
+         font-size: 14px;
+         font-weight: bolder;
+}
+.circulation-label {
+         position: relative; left: -75px; top: -15px;
+         font-size: 14px;
+         font-weight: bolder;
+}
+.item4-price {
+          position: relative; left: -10px; top: -5px;
+          width: 135px;
+          margin: auto;
+          padding: 2px;
+          text-align: right;
+          font-size: 12px;
+          border-radius: 0px;
+          border-style: none;
+          outline-style: none;
+}
+.plus-symbol {
+          display: block;
+          margin: 5px 100px 1 22px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: red;
+          color: white;
+          text-align: center;
+          line-height: 20px;
+          font-weight: bold;
+          font-size: 15px;
+}
+.item4-button {
+          position: relative; left: 18px; top: -45px;
+          border-radius: 5px;
+          text-align: center;
+          font-size: 14px;
+          border: px;
+          /*
+          border-radius: 5px;
+          border: 1px;
+          border-style: ;
+          outline-style: ;
+          */
+}
+.mining-network {
+	position: relative; left: 2px; top: 10px;
+        font-size: 12px;
+        width: 90px;
+}
+.switch {
+        font-size: 12px;
+        width: 70px;
+}
+h1 {
+    font-size: 12px;
+}
+.switch {
+          position: relative;
+          display: inline-block;
+          width: 40px;
+          height: 20px;
+          padding:
+}
+.switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+}
+.slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+}
+.slider:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        top: 2px;
+        left: 1px;
+        right: px;
+        bottom: 1px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+}
+
+input:checked + .slider {
+        background-color: #2196F3;
+}
+input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+}
+/* Rounded sliders */
+.slider.round {
+        border-radius: 24px;
+}
+.slider.round:before {
+        border-radius: 50%;
+}
+div img {
+        display:inline-block;
+        width: 15px;
+        height: 15px;
+        color: blue;
+        margin-right: 50px;
+        filter: brightness(0.15);
+}
+.gat-members {
+        display: inline;
+        position: relative; left: 19px; bottom: 36px;
+        width: 70px;
+        text-align: center;
+        border: 0px;
+        outline-style: none;
+        border-radius: 0px;
+        font-size: 13px;
+}
+.gat-network {
+        display: inline;
+        position: relative; left: 10px; bottom: 78px;
+        width: 85px;
+        text-align: center;
+        border: 0px;
+        outline-style: none;
+        border-radius: 0px;
+        font-size: 11px;
+}
+.chain-network {
+        display: inline;
+        position: relative; left: -20px; bottom: 38px;
+        width: 20px;
+	height: 20px;
+        text-align: center;
+        border: 0px;
+        outline-style: none;
+        border-radius: 0px;
+        font-size: 10px;
+}
+.miner-gif {
+        display: inline;
+        position: relative; left: -5px; bottom: 238px;
+        width: 260px;
+	height: 145px;
+        text-align: center;
+        border: 0px;
+        outline-style: none;
+        border-radius: 0px;
+        font-size: 18px;
+	filter: brightness(1.18);
+}
+.mining-progress {
+       font-size:12px;
+       width:210px;
+       text-align:left;
+}
+.gat-coin {
+       position: relative; left: -355px; top: -7px;
+       width: 170px;
+       height: 150px;
+       border-radius: 50%;
+       filter: brightness(1.48);
+
+        /*radial-gradient(circle at 30% 30%, #ffd700 70%, #aaa 100%);*/
+}
+.gat-price {
+        position: relative; left: 7px; top: -130px;
+        font-size: 52px;
+	color: light-blue;
+}
+.gat {
+       position: relative;  left: 780px; top: -195px;
+       width: 60px;
+       height: 60px;
+       font-size: 57px;
+}
+.approx-heading {
+       position: relative; left: -95px; top: -190px;
+}
+.approx-price {
+       position: relative; left: 410px; top: -347px;
+       width: 100px;
+       padding: 2px;
+       border-radius: 0px;
+       border-style: none;
+       outline-style: none;
+       text-align: center;
+       font-size: 12px;
+}
+.mining-round {
+       position: relative; left: -50px; top: -285px;
+       width: 160px;
+       border-radius: 0px;
+       text-align: center;
+       border-style: none;
+       outline-style: none;
+       font-size: 14px;
+}
+.withdraw-Button {
+       position: relative; left: -50px; top: -285px;
+       width: 135px;
+       border:  /*2px 2px solid black;*/
+       border-radius: 0px;
+       text-align: center;
+       font-size: 14px;
+}
+.current-trading-price-button {
+       position: relative; left: -50px; top: -285px;
+       border: /*2px 2px solid black;*/
+       border-radius: 0px;
+       text-align: center;
+       font-size: 14px;
+}
+.canvas-graph {
+       position: relative; left: 37px; top: -182px;
+       width: 80px; height: 50px; border:2px solid black;
+       font-size: 12px;
+}
+.gat-usd {
+       position: relative; left: 790px; top: -335px;
+       width: 100px; height: 50px; border: 2px solid black;
+       font-size: 12px;
+}
+.gat-usdprice {
+       position: relative; left: 790px; top: -360px;
+       width: 100px; height: 25px; border: 2px solid black;
+       font-size: 12px;
+       text-align: center;
+       text margin-top: 10px;
+}
+
+.sell-buy-heading {
+       position:relative; left: 28px; top: -42px;
+}
+span.buy-pair {
+       color: rgba(0, 255, 0, 1.0);
+}
+span.sell-pair {
+       color: rgba(255, 0, 0, 1.0);
+}
+.third-headings {      /* css for the headings account balance, mining capital, expected returns & referral rewards */
+       margin-top: -10px;
+       color: black;
+       font-weight: bolder;
+       font-size: 20px;
+       text-align: left;
+}
+div > span {
+       display: block;
+       margin-top: -10px;
+       font-family: Arial sans-serif;
+       font-size: 20px;
+}
+span.third-headings-value {  /* css to heading values - account balance, mining capital, expected returns & referral rewards */
+       color: black;
+       font-weight: bolder;
+       font-size: 20px;
+       text-align: left;
+}
+span.usd-price {   /* css for USD price below: account balance/mining capital/expected returns/referral rewards */
+       display: block;
+       margin: 5px;
+       text-align: left;
+       font-size: 14px;
+}
+.fouth-heading { /* css for fouth heading addresses */
+       position:relative; left: -12px; top: -20px;
+       text-align: left;
+       font-size: 12px;
+}
+.right-arrow-button {
+       display: block;
+       position:relative; left: 285px; top: -63px;
+       background-color: silver;
+       border: 6px 6px solid black;
+       border-radius: 0px;
+       margin-top: -5px;
+       font-size: 20px;
+       color: black;
+       font-weight: bolder;
+       width: 40px;  /* Adjust the width as desired */
+       height: 35px; /* Adjust the height as desired */
+}
+.left-arrow-button {
+       display: block;
+       position:relative; left: 335px; top: -93px;
+       background-color: silver;
+       margin-top: -5px;
+       font-size: 20px;
+       color: black;
+       font-weight: bolder;
+       width: 40px;  /* Adjust the width as desired */
+       height: 35px; /* Adjust the height as desired */
+}
+.miner-address {
+       position:relative; left: -70px; top: -135px;
+       outline-style: none;
+       margin-top: -5px;
+       font-size: 12px;
+       font-weight: bolder;
+       width: 290px;  /* Adjust the width as desired */
+       height: 30px; /* Adjust the height as desired */
+}
+.total-gat {
+       margin-left: -190px;"
+}
+.total-treasury {
+       position: relative; left: -92px; top: -25px;
+
+}
+
+.total-gat-mining {
+      position:relative; left: 63px; top: -40px;
+      width: 180px;
+      padding: 2px;
+      border-radius: 0px;
+      border-style: none;
+      outline-style: none;
+}
+.treasury-balance {
+      position:relative; left: 63px; top: -65px;
+      width: 180px;
+      padding: 2px;
+      border-radius: 0px;
+      border-style: none;
+      outline-style: none;
+}
+.sell-buy-email {
+      position:relative; left: -30px; top: -20px;
+}
+.email-button {
+      position:relative; left: -27px; top: -50px;
+      background-color: blue;
+      border: 6px 6px solid black;
+      border-radius: 0px;
+      font-size: 19px;
+      outline-style: none;
+}
+.buy-sell-button {
+     position: relative; left: 30px; top: -71px;
+     background-color: blue;
+     border: 6px 6px solid black;
+     border-radius: 0px;
+     padding: 2px;
+     font-size: 20px;
+     color: white;
+}
+.join-heading {
+     position:relative; left: 105px; top: -42px;
+}
+.reject-heading {
+     position:relative; left: 155px; top: -63px;"
+}
+.email-form {  /* css style for email field under join mining operations on the interface */
+     position: relative; left: -30px; top: -122px;
+     font-size: 14px;
+     font-weight: bolder;
+}
+.email-form input {
+     outline: none;
+}

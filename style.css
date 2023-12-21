@@ -1,0 +1,72 @@
+ @import url("grid-items.css");
+
+ * {
+  box-sizing: border-box;
+}
+body {  /* css property and value for the body section of the layout */
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+  }
+  .container { /* css property and value for the background area */
+        width: 1000px;
+        height: 640px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: ;
+        box-shadow: 0 0 50px rgba(0, 43, 0, 1.0); /* original: rgba(0, 0, 0, 0.1); */
+}
+.grid-container-6-boxes {  /* css styling layout for the 6 boxes */
+        display: grid;
+        grid-template-columns: 40px 240px 250px 155px 115px 120px;
+        grid-template-rows: 110px;
+        grid-gap: 1px;
+        padding: 10px 20px 0 20px;
+}
+ .grid-container-6-boxes > div { /* css styling for the 6 boxes */
+        background-color: rgba(0, 255, 0, 0.1);
+        border: 1px solid;
+        padding: 6px 20px;
+        font-size: 30px;
+        text-align: center;
+}
+.middle-container {  /*css styling for the progress of mining operation area*/
+        display: grid;
+        grid-template-rows: 245px;
+        padding: 6px 20px;
+}
+.middle-container > div {  /* css styling for the items on the middle container*/
+        background-color: rgba(0, 255, 0, 0.1);
+        border: 1px solid;
+        padding: 6px 12px;
+        font-size: 30px;
+        text-align: center;
+}
+.third-container {   /* css property and values layout for the 4 boxes */
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 85px;
+}
+.third-container > div {   /* css property and values styling for the 4 boxes */
+        background-color: rgba(0, 255, 0, 0.1);
+        border: 1px solid;
+        padding: 15px;
+        font-size: 30px
+        text-align: center;
+}
+.footer-container {
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: 450px auto 125px;
+        grid-template-rows: 120px;
+        padding: 5px;
+}
+.footer-container > div {
+        background-color: rgba(0, 255, 0, 0.1);
+        border: 1px solid;
+        padding: 25px;
+        font-size: 30px;
+        text-align: center;
+}
